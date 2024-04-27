@@ -57,6 +57,10 @@ h2 {
   font-size: 32px;
   margin: 40px 0;
 }
+.position h2 {
+  color: aliceblue;
+}
+
 .button {
   color: #ffd100;
   border: 1px solid #ffd100;
