@@ -52,8 +52,8 @@ h2 {
   margin: 0;
   line-height: 1;
 }
-.header .position {
-  color: #fafafa;
+.header .position i {
+  color: #ffd100;
   font-size: 32px;
   margin: 40px 0;
 }
