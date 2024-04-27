@@ -18,7 +18,7 @@
 }
 * {
   font-family: "Poppins", sans-serif;
-  color: #333533;
+  /* color: #333533; */
   box-sizing: border-box;
 }
 
@@ -29,10 +29,6 @@ body {
 }
 a {
   text-decoration: none;
-}
-
-h2 {
-  font-weight: 400;
 }
 
 .header {
@@ -60,6 +56,11 @@ h2 {
 .position {
   color: #fafafa;
 }
+
+h2 {
+  font-weight: 400;
+}
+
 .button {
   color: #ffd100;
   border: 1px solid #ffd100;
