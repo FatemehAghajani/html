@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Poppins";
   src: url("assets/fonts/woff/Poppins-Light.woff") format("woff"),
     url("assets/fonts/ttf/Poppins-Light.ttf") format("ttf");
@@ -15,7 +15,7 @@
   src: url("assets/fonts/woff/Poppins-Regular.woff") format("woff"),
     url("assets/fonts/ttf/Poppins-Regular.ttf") format("ttf");
   font-weight: 500;
-}
+} */
 * {
   font-family: "Poppins", sans-serif;
   /* color: #333533; */
