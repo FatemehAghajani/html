@@ -1,28 +1,12 @@
-/* @font-face {
-  font-family: "Poppins";
-  src: url("assets/fonts/woff/Poppins-Light.woff") format("woff"),
-    url("assets/fonts/ttf/Poppins-Light.ttf") format("ttf");
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Poppins";
-  src: url("assets/fonts/woff/Poppins-Medium.woff") format("woff"),
-    url("assets/fonts/ttf/Poppins-Medium.ttf") format("ttf");
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Poppins";
-  src: url("assets/fonts/woff/Poppins-Regular.woff") format("woff"),
-    url("assets/fonts/ttf/Poppins-Regular.ttf") format("ttf");
-  font-weight: 500;
-} */
+
 * {
   font-family: "Poppins", sans-serif;
-  /* color: #333533; */
+
   box-sizing: border-box;
 }
 body {
   background-color: #fafafa;
+  color: #333533;
   font-size: 18px;
   margin: 0;
 }
@@ -109,8 +93,25 @@ nav {
 nav ul li {
   cursor: pointer;
 }
-nav li .active {
-  font-weight: 500;
+nav li.active {
+  font-weight: 600;
+}
+nav ul li .marker {
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  border: 1px solid #333533;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+nav ul li.active .marker,
+nav ul li :hover.marker {
+  background-color: #333533;
+  color: #ffd100;
+  font-size: 22px;
 }
 .sections {
   width: 700px;
